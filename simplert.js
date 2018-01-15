@@ -1,4 +1,4 @@
-import configDefaultConfig from './simplert-default-config'
+import configDefaultConfig from './simplert-config'
 
 export default {
   name: 'Simplert',
