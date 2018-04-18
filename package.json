@@ -1,7 +1,7 @@
 {
   "name": "vue2-simplert-core",
   "description": "Core CSS and JS Logic for Vue2 Simplert Library",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "author": "Irfan Maulana (https://github.com/mazipan/)",
   "private": false,
@@ -40,53 +40,19 @@
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
+    "babel-loader": "^7.1.4",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.1",
-    "compression-webpack-plugin": "^1.1.3",
-    "cross-env": "^5.1.3",
-    "css-loader": "^0.28.8",
-    "eslint": "^4.15.0",
-    "eslint-plugin-vue": "4.1.0",
-    "file-loader": "^1.1.6",
-    "jest": "^22.0.4",
-    "vue-jest": "^1.4.0",
-    "jsdom": "^11.5.1",
-    "jsdom-global": "^3.0.2",
-    "node-sass": "^4.7.2",
-    "sass-loader": "^6.0.6",
-    "vue": "^2.5.13",
-    "vue-loader": "^13.7.0",
-    "vue-template-compiler": "^2.5.13",
-    "vue-test-utils": "^1.0.0-beta.9",
-    "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.10.0"
-  },
-  "eslintIgnore": [
-    "test/*.js",
-    "dist/*.js",
-    "node_modules"
-  ],
-  "eslintConfig": {
-    "extends": [
-      "eslint:recommended",
-      "plugin:vue/recommended"
-    ]
-  },
-  "jest": {
-    "testEnvironment": "jsdom",
-    "mapCoverage": true,
-    "coverageDirectory": "test/coverage",
-    "moduleNameMapper": {
-      "^vue$": "vue/dist/vue.common.js"
-    },
-    "moduleFileExtensions": [
-      "js",
-      "vue"
-    ],
-    "transform": {
-      "^.+\\.js$": "<rootDir>/node_modules/babel-jest",
-      ".*\\.(vue)$": "<rootDir>/node_modules/vue-jest"
-    }
+    "compression-webpack-plugin": "^1.1.11",
+    "cross-env": "^5.1.4",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.8.3",
+    "sass-loader": "^7.0.1",
+    "vue": "^2.5.16",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.2"
   }
 }
